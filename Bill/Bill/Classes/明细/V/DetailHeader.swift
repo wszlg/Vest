@@ -1,0 +1,27 @@
+//
+//  DetailHeader.swift
+//  Bill
+//
+//  Created by fcn on 2018/8/22.
+//  Copyright © 2018年 fcn. All rights reserved.
+//
+
+import UIKit
+
+class DetailHeader: UITableViewHeaderFooterView {
+
+
+    
+    @IBOutlet weak var dateTime: UILabel!
+    
+    @IBOutlet weak var allInandAllOut: UILabel!
+    
+    /*
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
+    */
+
+}

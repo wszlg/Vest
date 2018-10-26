@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>normalImage</key>
+		<string>category_i_finance_normal</string>
+		<key>selectImage</key>
+		<string>category_i_finance_selected</string>
+		<key>name</key>
+		<string>理财</string>
+	</dict>
+	<dict>
+		<key>normalImage</key>
+		<string>category_i_money_normal</string>
+		<key>selectImage</key>
+		<string>category_i_money_selected</string>
+		<key>name</key>
+		<string>礼金</string>
+	</dict>
+	<dict>
+		<key>normalImage</key>
+		<string>category_i_other_normal</string>
+		<key>selectImage</key>
+		<string>category_i_other_selected</string>
+		<key>name</key>
+		<string>其他</string>
+	</dict>
+	<dict>
+		<key>normalImage</key>
+		<string>category_i_parttimework_normal</string>
+		<key>selectImage</key>
+		<string>category_i_parttimework_selected</string>
+		<key>name</key>
+		<string>兼职</string>
+	</dict>
+	<dict>
+		<key>normalImage</key>
+		<string>category_i_wage_normal</string>
+		<key>selectImage</key>
+		<string>category_i_wage_selected</string>
+		<key>name</key>
+		<string>工资</string>
+	</dict>
+</array>
+</plist>

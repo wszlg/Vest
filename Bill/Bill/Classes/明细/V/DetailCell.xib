@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailCell" rowHeight="101" id="KGk-i7-Jjw" customClass="DetailCell" customModule="Bill" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom_chart_pressed" translatesAutoresizingMaskIntoConstraints="NO" id="ere-yi-KM3">
+                        <rect key="frame" x="20" y="30" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="h6H-um-0Tm"/>
+                            <constraint firstAttribute="width" constant="40" id="pio-X5-Szf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="零食" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBw-AC-gEJ">
+                        <rect key="frame" x="90" y="41" width="33" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.066666666666666666" green="0.074509803921568626" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="46500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kq1-nL-lHc">
+                        <rect key="frame" x="306" y="41" width="49" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZl-F9-VAX">
+                        <rect key="frame" x="90" y="99.5" width="285" height="1"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="hO2-na-qjf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ere-yi-KM3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="2IG-P0-Rz6"/>
+                    <constraint firstItem="BBw-AC-gEJ" firstAttribute="leading" secondItem="ere-yi-KM3" secondAttribute="trailing" constant="30" id="2jf-hg-dyz"/>
+                    <constraint firstAttribute="trailing" secondItem="Kq1-nL-lHc" secondAttribute="trailing" constant="20" id="DeR-cr-A9i"/>
+                    <constraint firstAttribute="bottom" secondItem="AZl-F9-VAX" secondAttribute="bottom" id="JKP-ly-DEg"/>
+                    <constraint firstItem="AZl-F9-VAX" firstAttribute="leading" secondItem="BBw-AC-gEJ" secondAttribute="leading" id="QCL-C8-GwJ"/>
+                    <constraint firstItem="Kq1-nL-lHc" firstAttribute="centerY" secondItem="BBw-AC-gEJ" secondAttribute="centerY" id="W3h-TG-o6G"/>
+                    <constraint firstItem="ere-yi-KM3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="hCn-bo-XAg"/>
+                    <constraint firstAttribute="trailing" secondItem="AZl-F9-VAX" secondAttribute="trailing" id="hxF-eR-5MP"/>
+                    <constraint firstItem="BBw-AC-gEJ" firstAttribute="centerY" secondItem="ere-yi-KM3" secondAttribute="centerY" id="tHE-Hu-ULv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryImg" destination="ere-yi-KM3" id="ORR-Z1-2NS"/>
+                <outlet property="categoryName" destination="BBw-AC-gEJ" id="0Sm-Cv-j35"/>
+                <outlet property="incomOrOut" destination="Kq1-nL-lHc" id="hgD-6H-38k"/>
+            </connections>
+            <point key="canvasLocation" x="-481.5" y="-60.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bottom_chart_pressed" width="24" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>normalImage</key>
+		<string>category_e_beauty_normal</string>
+		<key>selectImage</key>
+		<string>category_e_beauty_selected</string>
+		<key>name</key>
+		<string>美容</string>
+	</dict>
+	<dict>
+		<key>normalImage</key>
+		<string>category_e_books_normal</string>
+		<key>selectImage</key>
+		<string>category_e_books_selected</string>
+		<key>name</key>
+		<string>书籍</string>
+	</dict>
+	<dict>
+		<key>normalImage</key>
+		<string>category_e_car_normal</string>
+		<key>selectImage</key>
+		<string>category_e_car_selected</string>
+		<key>name</key>
+		<string>汽车</string>
+	</dict>
+	<dict>
+		<key>normalImage</key>
+		<string>category_e_catering_normal</string>
+		<key>selectImage</key>
+		<string>category_e_catering_selected</string>
+		<key>name</key>
+		<string>餐饮</string>
+	</dict>
+	<dict>
+		<key>normalImage</key>
+		<string>category_e_child_normal</string>
+		<key>selectImage</key>
+		<string>category_e_child_selected</string>
+		<key>name</key>
+		<string>孩子</string>
+	</dict>
+	<dict>
+		<key>normalImage</key>
+		<string>category_e_commodity_normal</string>
+		<key>selectImage</key>
+		<string>category_e_commodity_selected</string>
+		<key>name</key>
+		<string>日用</string>
+	</dict>
+</array>
+</plist>
