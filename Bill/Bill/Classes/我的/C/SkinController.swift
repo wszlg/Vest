@@ -91,6 +91,9 @@ class SkinController: UITableViewController {
         
         currentCustomColor = dataColor[indexPath.row]
         SystemTool.cacheCustomCoclor(index: indexPath.row)
+        // 改变TabbarColor
+        let tab = UIApplication.shared.keyWindow?.rootViewController as! TabBarController
+        tab.tabBar.tintColor = currentCustomColor
         tableView.reloadData()
     }
     

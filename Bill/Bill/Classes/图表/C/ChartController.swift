@@ -43,8 +43,7 @@ class ChartController: UITableViewController {
         
 
         let rightBtn = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
-        rightBtn.setTitle("Pie", for: .normal)
-        rightBtn.setTitleColor(UIColor.black, for: .normal)
+        rightBtn.setImage(UIImage(named: "饼图"), for: .normal)
         rightBtn.addTarget(self, action: #selector(didClickRightButton), for: .touchUpInside)
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightBtn)
         

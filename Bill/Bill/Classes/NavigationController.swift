@@ -21,12 +21,10 @@ class NavigationController: UINavigationController {
     
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         super.pushViewController(viewController, animated: animated)
-//        if self.childViewControllers.count > 1 {
-    
-        
         viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "返回"), style: .done, target: self, action: #selector(didClickBackButton))
-//            viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "<<<", style: .done, target: self, action: #selector(didClickBackButton))
-//        }
+        
+        
+        
     }
     
     

@@ -1,45 +1,23 @@
 //
-//  MineController.swift
+//  TabBarController.swift
 //  Bill
 //
-//  Created by fcn on 2018/10/24.
+//  Created by fcn on 2018/11/1.
 //  Copyright © 2018年 fcn. All rights reserved.
 //
 
 import UIKit
 
-class MineController: UIViewController {
-    
-    
-    
-    
-    @IBAction func didClickBtn(_ sender: Any) {
-        
-        
-        var data = [COLOR1, COLOR2, COLOR3, COLOR4, COLOR5]
-        
-        let index: Int = Int(arc4random_uniform(UInt32(data.count)))
-        
-        currentCustomColor = data[index]
-        
-    }
-    
+class TabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.isHidden = true
-    }
-
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        self.navigationController?.navigationBar.isHidden = false
+        
+        tabBar.tintColor = currentCustomColor
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

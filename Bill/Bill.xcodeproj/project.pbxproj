@@ -16,6 +16,7 @@
 		714EDB7B217F120600D4B6EA /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714EDB7A217F120600D4B6EA /* AddButton.swift */; };
 		7172B7912181BC3F007E6668 /* SkinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7172B7902181BC3F007E6668 /* SkinCell.swift */; };
 		7172B7932181BC8D007E6668 /* SkinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7172B7922181BC8D007E6668 /* SkinController.swift */; };
+		7187FCCD218AC82700E84F7F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7187FCCC218AC82700E84F7F /* TabBarController.swift */; };
 		7198D1FC21830D800025BE62 /* UserTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198D1FB21830D800025BE62 /* UserTool.swift */; };
 		7198D1FE21830E7A0025BE62 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198D1FD21830E7A0025BE62 /* User.swift */; };
 		719BBD452176D0D200A2096E /* BillGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BBD442176D0D200A2096E /* BillGroup.swift */; };
@@ -62,6 +63,7 @@
 		714EDB7A217F120600D4B6EA /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
 		7172B7902181BC3F007E6668 /* SkinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCell.swift; sourceTree = "<group>"; };
 		7172B7922181BC8D007E6668 /* SkinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinController.swift; sourceTree = "<group>"; };
+		7187FCCC218AC82700E84F7F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7198D1FB21830D800025BE62 /* UserTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTool.swift; sourceTree = "<group>"; };
 		7198D1FD21830E7A0025BE62 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		719BBD442176D0D200A2096E /* BillGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillGroup.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				71BA289D21804A7000DF5AA9 /* NavigationController.swift */,
 				7198D1FB21830D800025BE62 /* UserTool.swift */,
 				7198D1FD21830E7A0025BE62 /* User.swift */,
+				7187FCCC218AC82700E84F7F /* TabBarController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				71BA289C21803CB800DF5AA9 /* PieViewController.swift in Sources */,
 				71E97C6D2182E5CB00F73BCF /* RegisterController.swift in Sources */,
 				714B559621783C900005C2FE /* AddCountView.swift in Sources */,
+				7187FCCD218AC82700E84F7F /* TabBarController.swift in Sources */,
 				7110B1352178783300B7D525 /* ChartCell.swift in Sources */,
 				719BBD4921770D2B00A2096E /* CButton.swift in Sources */,
 				714EDB7B217F120600D4B6EA /* AddButton.swift in Sources */,

@@ -31,6 +31,8 @@ class PieViewController: UIViewController {
         super.viewDidLoad()
         
         
+        self.title = "饼图显示"
+        
         pieTitle = isOut ? "支出占比" : "收入占比"
         
         
@@ -178,10 +180,10 @@ extension PieViewController: ChartViewDelegate {
     
     //点击饼状图上的事件
     func chartValueSelected(_ chartView: ChartViewBase, entry: ChartDataEntry, highlight: Highlight) {
-        let al = UIAlertController.init(title: nil, message: "点击的是：\(months[Int(highlight.x)])  值为： \(highlight.y)", preferredStyle: .alert)
-        let cancel = UIAlertAction.init(title: "知道了", style: .cancel, handler: nil)
-        al.addAction(cancel)
-        self.present(al, animated: true, completion: nil)
+//        let al = UIAlertController.init(title: nil, message: "点击的是：\(months[Int(highlight.x)])  值为： \(highlight.y)", preferredStyle: .alert)
+//        let cancel = UIAlertAction.init(title: "知道了", style: .cancel, handler: nil)
+//        al.addAction(cancel)
+//        self.present(al, animated: true, completion: nil)
     }
 
     
