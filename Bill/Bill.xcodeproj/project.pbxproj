@@ -19,6 +19,9 @@
 		7187FCCD218AC82700E84F7F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7187FCCC218AC82700E84F7F /* TabBarController.swift */; };
 		7198D1FC21830D800025BE62 /* UserTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198D1FB21830D800025BE62 /* UserTool.swift */; };
 		7198D1FE21830E7A0025BE62 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198D1FD21830E7A0025BE62 /* User.swift */; };
+		7199275C218C3471002AB897 /* MineArrawCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7199275B218C3471002AB897 /* MineArrawCell.swift */; };
+		7199275E218C3488002AB897 /* MineSwithCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7199275D218C3488002AB897 /* MineSwithCell.swift */; };
+		71992760218C36AF002AB897 /* SetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7199275F218C36AF002AB897 /* SetModel.swift */; };
 		719BBD452176D0D200A2096E /* BillGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BBD442176D0D200A2096E /* BillGroup.swift */; };
 		719BBD472176EA4100A2096E /* AddBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BBD462176EA4100A2096E /* AddBillController.swift */; };
 		719BBD4921770D2B00A2096E /* CButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BBD4821770D2B00A2096E /* CButton.swift */; };
@@ -66,6 +69,9 @@
 		7187FCCC218AC82700E84F7F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7198D1FB21830D800025BE62 /* UserTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTool.swift; sourceTree = "<group>"; };
 		7198D1FD21830E7A0025BE62 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7199275B218C3471002AB897 /* MineArrawCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineArrawCell.swift; sourceTree = "<group>"; };
+		7199275D218C3488002AB897 /* MineSwithCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSwithCell.swift; sourceTree = "<group>"; };
+		7199275F218C36AF002AB897 /* SetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetModel.swift; sourceTree = "<group>"; };
 		719BBD442176D0D200A2096E /* BillGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillGroup.swift; sourceTree = "<group>"; };
 		719BBD462176EA4100A2096E /* AddBillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillController.swift; sourceTree = "<group>"; };
 		719BBD4821770D2B00A2096E /* CButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CButton.swift; sourceTree = "<group>"; };
@@ -166,6 +172,7 @@
 		71BA28A021805A5900DF5AA9 /* M */ = {
 			isa = PBXGroup;
 			children = (
+				7199275F218C36AF002AB897 /* SetModel.swift */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -185,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				7172B7902181BC3F007E6668 /* SkinCell.swift */,
+				7199275B218C3471002AB897 /* MineArrawCell.swift */,
+				7199275D218C3488002AB897 /* MineSwithCell.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -443,6 +452,7 @@
 				7110B13721787DA600B7D525 /* ChartGroup.swift in Sources */,
 				7198D1FE21830E7A0025BE62 /* User.swift in Sources */,
 				7172B7932181BC8D007E6668 /* SkinController.swift in Sources */,
+				7199275C218C3471002AB897 /* MineArrawCell.swift in Sources */,
 				7198D1FC21830D800025BE62 /* UserTool.swift in Sources */,
 				71BA289A2180141200DF5AA9 /* SVTool.swift in Sources */,
 				71DDD3EE212D343B002FF09F /* DataTool.swift in Sources */,
@@ -450,6 +460,7 @@
 				71B8D2E62179D242003B00E0 /* ChartMoreCell.swift in Sources */,
 				71BA289E21804A7000DF5AA9 /* NavigationController.swift in Sources */,
 				719BBD7121773A1D00A2096E /* CBModel.swift in Sources */,
+				7199275E218C3488002AB897 /* MineSwithCell.swift in Sources */,
 				71DDD3DA212D31ED002FF09F /* AppDelegate.swift in Sources */,
 				71E97C6B2182DC1700F73BCF /* LoginController.swift in Sources */,
 				71DDD3F6212D4CAA002FF09F /* DetailController.swift in Sources */,
@@ -469,6 +480,7 @@
 				71BA28A421805AB700DF5AA9 /* MineController.swift in Sources */,
 				71F642B2212E495D00533FF0 /* DatePickView.swift in Sources */,
 				71DDD3FB212D5CA2002FF09F /* DetailCell.swift in Sources */,
+				71992760218C36AF002AB897 /* SetModel.swift in Sources */,
 				71DDD3EC212D3355002FF09F /* Cat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
