@@ -257,7 +257,7 @@ class AddBillController: UIViewController {
                 cbuttons.append(cButton)
                 
             }
-            outScrollView.contentSize = CGSize(width: 0, height: CGFloat(((datas.count / 4 ) + 1)) * (cbHeight + vMargin))
+            outScrollView.contentSize = CGSize(width: 0, height: CGFloat(((datas.count / 4 ) + 2)) * (cbHeight + vMargin))
         }
         
         // 收入

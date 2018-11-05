@@ -33,6 +33,10 @@ class RegisterController: UIViewController {
 
     @IBAction func didClickRegister(_ sender: UIButton) {
         view.endEditing(true)
+        if (textUserName.text?.isEmpty)! || (textPassword.text?.isEmpty)! || (textPasswordConfirm.text?.isEmpty)! {
+            SVTool.showError(info: "请填写完整")
+            return
+        }
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

@@ -20,6 +20,16 @@ class UserTool: NSObject {
         UserDefaults.standard.synchronize()
     }
     
+    /// 缓存头像
+    static func cacheIcon(data: Data?)  {
+        UserDefaults.standard.setValue(data, forKey: "ICON")
+    }
+    /// 取出头像
+    static func getIcon() -> Data?  {
+        let d = UserDefaults.standard.value(forKey: "ICON") as? Data
+        return d
+    }
+    
     /// 缓存User
     static func cacheUser(user: User) {
         DataTool.addValue(values: user)

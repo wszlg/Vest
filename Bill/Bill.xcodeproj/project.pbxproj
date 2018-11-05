@@ -28,6 +28,8 @@
 		719BBD4B21770D3700A2096E /* CButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719BBD4A21770D3700A2096E /* CButton.xib */; };
 		719BBD6F217735B300A2096E /* OutModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 719BBD6E217735B300A2096E /* OutModel.plist */; };
 		719BBD7121773A1D00A2096E /* CBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BBD7021773A1D00A2096E /* CBModel.swift */; };
+		719BFAFF219009CB006EBAE3 /* MineLogOutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BFAFE219009CB006EBAE3 /* MineLogOutCell.swift */; };
+		719BFB01219031B8006EBAE3 /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BFB00219031B8006EBAE3 /* AboutUsController.swift */; };
 		71B8D2E42179D21B003B00E0 /* ChartMoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8D2E32179D21B003B00E0 /* ChartMoreController.swift */; };
 		71B8D2E62179D242003B00E0 /* ChartMoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8D2E52179D242003B00E0 /* ChartMoreCell.swift */; };
 		71BA289A2180141200DF5AA9 /* SVTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA28992180141200DF5AA9 /* SVTool.swift */; };
@@ -78,6 +80,8 @@
 		719BBD4A21770D3700A2096E /* CButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CButton.xib; sourceTree = "<group>"; };
 		719BBD6E217735B300A2096E /* OutModel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OutModel.plist; sourceTree = "<group>"; };
 		719BBD7021773A1D00A2096E /* CBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBModel.swift; sourceTree = "<group>"; };
+		719BFAFE219009CB006EBAE3 /* MineLogOutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineLogOutCell.swift; sourceTree = "<group>"; };
+		719BFB00219031B8006EBAE3 /* AboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
 		71B8D2E32179D21B003B00E0 /* ChartMoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartMoreController.swift; sourceTree = "<group>"; };
 		71B8D2E52179D242003B00E0 /* ChartMoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartMoreCell.swift; sourceTree = "<group>"; };
 		71BA28992180141200DF5AA9 /* SVTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVTool.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 				7172B7922181BC8D007E6668 /* SkinController.swift */,
 				71E97C6A2182DC1700F73BCF /* LoginController.swift */,
 				71E97C6C2182E5CB00F73BCF /* RegisterController.swift */,
+				719BFB00219031B8006EBAE3 /* AboutUsController.swift */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				7172B7902181BC3F007E6668 /* SkinCell.swift */,
 				7199275B218C3471002AB897 /* MineArrawCell.swift */,
 				7199275D218C3488002AB897 /* MineSwithCell.swift */,
+				719BFAFE219009CB006EBAE3 /* MineLogOutCell.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -469,6 +475,7 @@
 				719BBD452176D0D200A2096E /* BillGroup.swift in Sources */,
 				71DDD3F8212D5384002FF09F /* Bill.swift in Sources */,
 				719BBD472176EA4100A2096E /* AddBillController.swift in Sources */,
+				719BFB01219031B8006EBAE3 /* AboutUsController.swift in Sources */,
 				71BA289C21803CB800DF5AA9 /* PieViewController.swift in Sources */,
 				71E97C6D2182E5CB00F73BCF /* RegisterController.swift in Sources */,
 				714B559621783C900005C2FE /* AddCountView.swift in Sources */,
@@ -482,6 +489,7 @@
 				71DDD3FB212D5CA2002FF09F /* DetailCell.swift in Sources */,
 				71992760218C36AF002AB897 /* SetModel.swift in Sources */,
 				71DDD3EC212D3355002FF09F /* Cat.swift in Sources */,
+				719BFAFF219009CB006EBAE3 /* MineLogOutCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

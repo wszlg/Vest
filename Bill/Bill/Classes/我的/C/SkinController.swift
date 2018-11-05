@@ -28,21 +28,10 @@ class SkinController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-        
-        
-
-        
+        self.navigationController?.navigationBar.barTintColor = currentCustomColor
         tableView.rowHeight = 60
-        
         tableView.tableFooterView = UIView()
-        
-        
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -95,6 +84,8 @@ class SkinController: UITableViewController {
         let tab = UIApplication.shared.keyWindow?.rootViewController as! TabBarController
         tab.tabBar.tintColor = currentCustomColor
         tableView.reloadData()
+        
+        self.navigationController?.navigationBar.barTintColor = currentCustomColor
     }
     
 
