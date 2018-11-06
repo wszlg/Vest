@@ -49,6 +49,7 @@
 		71DDD3FC212D5CA2002FF09F /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71DDD3FA212D5CA2002FF09F /* DetailCell.xib */; };
 		71DDD3FE212D6206002FF09F /* DetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DDD3FD212D6206002FF09F /* DetailHeader.swift */; };
 		71DDD400212D6210002FF09F /* DetailHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71DDD3FF212D6210002FF09F /* DetailHeader.xib */; };
+		71DEFE57219139CD009D1D04 /* OpinionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEFE56219139CD009D1D04 /* OpinionController.swift */; };
 		71E97C6B2182DC1700F73BCF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E97C6A2182DC1700F73BCF /* LoginController.swift */; };
 		71E97C6D2182E5CB00F73BCF /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E97C6C2182E5CB00F73BCF /* RegisterController.swift */; };
 		71F642B0212E47E000533FF0 /* SystemExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F642AF212E47E000533FF0 /* SystemExtention.swift */; };
@@ -103,6 +104,7 @@
 		71DDD3FA212D5CA2002FF09F /* DetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
 		71DDD3FD212D6206002FF09F /* DetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeader.swift; sourceTree = "<group>"; };
 		71DDD3FF212D6210002FF09F /* DetailHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailHeader.xib; sourceTree = "<group>"; };
+		71DEFE56219139CD009D1D04 /* OpinionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpinionController.swift; sourceTree = "<group>"; };
 		71E97C6A2182DC1700F73BCF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		71E97C6C2182E5CB00F73BCF /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		71F642AF212E47E000533FF0 /* SystemExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemExtention.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				71E97C6A2182DC1700F73BCF /* LoginController.swift */,
 				71E97C6C2182E5CB00F73BCF /* RegisterController.swift */,
 				719BFB00219031B8006EBAE3 /* AboutUsController.swift */,
+				71DEFE56219139CD009D1D04 /* OpinionController.swift */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				7198D1FE21830E7A0025BE62 /* User.swift in Sources */,
 				7172B7932181BC8D007E6668 /* SkinController.swift in Sources */,
 				7199275C218C3471002AB897 /* MineArrawCell.swift in Sources */,
+				71DEFE57219139CD009D1D04 /* OpinionController.swift in Sources */,
 				7198D1FC21830D800025BE62 /* UserTool.swift in Sources */,
 				71BA289A2180141200DF5AA9 /* SVTool.swift in Sources */,
 				71DDD3EE212D343B002FF09F /* DataTool.swift in Sources */,

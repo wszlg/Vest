@@ -144,6 +144,30 @@ class SystemTool: NSObject {
         return dataColor[index]
     }
     
+    /// 保存使用天数
+    static func saveUseDays() {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyyMMdd"
+        let time = formatter.string(from: Date())
+        
+        if var array = UserDefaults.standard.stringArray(forKey: "USEDAYA") {
+            if !array.contains(time) {
+                array.append(time)
+                UserDefaults.standard.set(array, forKey: "USEDAYA")
+            }
+        } else {
+            let array = [time]
+            UserDefaults.standard.set(array, forKey: "USEDAYA")
+        }
+    }
+    /// 取出使用天数
+    static func getUseDaysCount() -> Int {
+        if let array = UserDefaults.standard.stringArray(forKey: "USEDAYA") {
+            return array.count
+        }
+        return 0
+    }
+    
 }
 
 extension UIColor {

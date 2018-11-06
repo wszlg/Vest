@@ -42,7 +42,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         
-        
         // 颜色处理
         currentCustomColor = SystemTool.getCacheCustomCoclor()
         // 颜色处理
@@ -62,6 +61,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        // 保存使用天数
+        SystemTool.saveUseDays()
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {

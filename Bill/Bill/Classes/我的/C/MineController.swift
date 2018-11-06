@@ -42,8 +42,11 @@ class MineController: UIViewController {
                       SetModel(iconName: "音乐", name: "声音开关", isOpen: true, switchOperation: { (open) in
                       }),
                       SetModel(iconName: "头像女孩", name: "头像设置", isOpen: nil, switchOperation: nil),
-                      SetModel(iconName: "皮肤", name: "皮肤设置", isOpen: nil, switchOperation: nil),
+                      SetModel(iconName: "皮肤", name: "皮肤设置", isOpen: nil, switchOperation: nil)])
+        
+        datas.append([SetModel(iconName: "意见反馈", name: "意见反馈", isOpen: nil, switchOperation: nil),
                       SetModel(iconName: "关于", name: "关于v\(version)", isOpen: nil, switchOperation: nil)])
+        
         datas.append([SetModel(iconName: "", name: "退出登陆", isOpen: nil, switchOperation: nil)])
         
         
@@ -71,6 +74,20 @@ class MineController: UIViewController {
             icon.image = UIImage(data: data)
         } else {
             icon.image = UIImage(named: "头像")
+        }
+        
+        if !UserTool.isLogin() {
+            labelNumber.text = "-"
+            labelDays.text = "-"
+            labelStrike.text = "-"
+        } else {
+            labelStrike.text = "\(SystemTool.getUseDaysCount())"
+            labelDays.text = "\(SystemTool.getUseDaysCount())"
+            if let bills = DataTool.searchValue(type: Bill.self, condition: nil) {
+                labelNumber.text = "\(bills.count)"
+            } else {
+                labelNumber.text = "0"
+            }
         }
     }
 
@@ -133,6 +150,9 @@ extension MineController: UITableViewDelegate, UITableViewDataSource {
             SVTool.showSuccess(info: "退出成功")
             UserTool.cacheIcon(data: nil)
             icon.image = UIImage(named: "头像")
+            labelNumber.text = "-"
+            labelDays.text = "-"
+            labelStrike.text = "-"
         }
         
         if model.name.contains("关于") {
@@ -147,6 +167,19 @@ extension MineController: UITableViewDelegate, UITableViewDataSource {
             self.navigationController?.pushViewController(vc, animated: true)
         }
         
+        if model.name.contains("意见反馈") {
+            let vc = SystemTool.getVcWithIdentifier(withIdentifier: "OpinionController")
+            vc.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 30
+    }
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0.1
     }
 }
 
